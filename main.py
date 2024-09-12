@@ -55,7 +55,7 @@ def createplots():
 
 
 def createsummary():
-    with open("summary_report.md", "w") as file:
+    with open("summary_report.md", "w", encoding="utf-8") as file:
         file.write("""# Mini Project: Pandas Descriptive Statistics\n\n""")
         file.write("""Adil Keku Gazder <br>""")
         file.write(""" ag825, adil.gazder@duke.edu <br>""")
