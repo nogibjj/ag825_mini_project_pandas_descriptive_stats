@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# Reading files
 path = "medallists.csv"
 df = pd.read_csv(path)
 headdata = df.head()
